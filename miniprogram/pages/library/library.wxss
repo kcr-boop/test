@@ -1,0 +1,2 @@
+.wrap { padding: 40rpx; }
+.empty { color: var(--ink-muted); font-size: 28rpx; text-align: center; padding-top: 160rpx; }
