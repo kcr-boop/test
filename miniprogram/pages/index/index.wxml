@@ -1,0 +1,14 @@
+<view class="wrap">
+  <view class="kicker">AI 古琴打谱</view>
+  <view class="title serif">任何一份曲谱，\n变成你弹得出的<text class="accent">减字谱</text></view>
+  <view class="lead">拍下五线谱或简谱，自动编配弦位、徽位与指法，再用古琴声音弹给你听。</view>
+
+  <view class="card import">
+    <view class="card-title serif">导入曲谱</view>
+    <button class="btn-primary" bindtap="takePhoto">拍照识谱</button>
+    <view class="grid">
+      <button class="ghost" bindtap="pickFromChat">聊天记录 / 相册</button>
+      <button class="ghost" bindtap="pickFile">PDF / MusicXML / MIDI</button>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,9 @@
+<view class="wrap">
+  <view class="row">
+    <view wx:for="{{placements}}" wx:key="index" class="zhi {{index === current ? 'active' : ''}}" data-i="{{index}}" bindtap="pick">
+      <text class="zhi-top">{{item.jianzi.top}}</text>
+      <view class="zhi-right">{{item.jianzi.right}}<text class="zhi-string">{{item.jianzi.string}}</text></view>
+    </view>
+  </view>
+  <view class="explain serif" wx:if="{{placements.length}}">{{placements[current].explain}}</view>
+</view>

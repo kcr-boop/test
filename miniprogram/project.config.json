@@ -1,0 +1,7 @@
+{
+  "appid": "touristappid",
+  "projectname": "qinyi",
+  "compileType": "miniprogram",
+  "miniprogramRoot": "./",
+  "setting": { "es6": true, "minified": true }
+}

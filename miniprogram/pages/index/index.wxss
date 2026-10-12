@@ -1,0 +1,9 @@
+.wrap { padding: 24rpx 40rpx; display: flex; flex-direction: column; gap: 32rpx; }
+.kicker { font-size: 24rpx; letter-spacing: 8rpx; color: var(--ink-muted); }
+.title { font-size: 60rpx; font-weight: 700; line-height: 1.32; white-space: pre-line; }
+.accent { color: var(--cinnabar); }
+.lead { font-size: 28rpx; line-height: 1.7; color: var(--ink-soft); }
+.import { display: flex; flex-direction: column; gap: 32rpx; }
+.card-title { font-size: 36rpx; font-weight: 700; }
+.grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20rpx; }
+.ghost { height: 152rpx; border-radius: 24rpx; background: var(--paper); border: 1rpx solid var(--line); font-size: 26rpx; display: flex; align-items: center; justify-content: center; }

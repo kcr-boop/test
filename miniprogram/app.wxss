@@ -1,0 +1,58 @@
+/* 视觉规范「墨与朱」：宣纸为底，浓墨为字，朱砂只用在“此刻”。详见 docs/design.md */
+page {
+  --paper: #F5F1E8;
+  --paper-white: #FFFDF8;
+  --ink: #1E1C19;
+  --ink-soft: #5B554C;
+  --ink-muted: #6B6458;
+  --cinnabar: #A8321F;
+  --cinnabar-soft: #F6E3DE;
+  --azurite: #2D5A5E;
+  --azurite-soft: #E3ECEA;
+  --line: #E2DACB;
+  --line-strong: #D9D0BF;
+
+  background: var(--paper);
+  color: var(--ink);
+  font-family: 'Noto Sans SC', 'PingFang SC', sans-serif;
+  font-size: 28rpx;
+}
+
+.serif { font-family: 'Noto Serif SC', 'Songti SC', serif; }
+
+.card {
+  background: var(--paper-white);
+  border: 1rpx solid var(--line);
+  border-radius: 32rpx;
+  padding: 40rpx;
+}
+
+.btn-primary {
+  height: 104rpx;
+  line-height: 104rpx;
+  border-radius: 24rpx;
+  background: var(--ink);
+  color: var(--paper-white);
+  font-size: 32rpx;
+  font-weight: 500;
+}
+
+.btn-cinnabar { background: var(--cinnabar); }
+
+/* 减字单元：上部 左手+徽位；下部 右手包住弦序 */
+.zhi {
+  width: 80rpx;
+  height: 108rpx;
+  border-radius: 16rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Noto Serif SC', serif;
+  line-height: 1;
+}
+.zhi-top { font-size: 22rpx; }
+.zhi-right { font-size: 44rpx; position: relative; }
+.zhi-string { position: absolute; left: 0; right: 0; bottom: 6rpx; font-size: 20rpx; text-align: center; }
+.zhi.active { border: 3rpx solid var(--cinnabar); color: var(--cinnabar); background: var(--paper-white); }
+.zhi.warn { background: var(--cinnabar-soft); border: 3rpx dashed var(--cinnabar); }

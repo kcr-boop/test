@@ -1,0 +1,25 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/score/score",
+    "pages/library/library"
+  ],
+  "window": {
+    "navigationBarTitleText": "琴译",
+    "navigationBarBackgroundColor": "#F5F1E8",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#F5F1E8"
+  },
+  "tabBar": {
+    "color": "#6B6458",
+    "selectedColor": "#A8321F",
+    "backgroundColor": "#FFFDF8",
+    "borderStyle": "white",
+    "list": [
+      { "pagePath": "pages/index/index", "text": "打谱" },
+      { "pagePath": "pages/library/library", "text": "我的琴谱" }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
